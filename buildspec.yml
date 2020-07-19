@@ -15,5 +15,5 @@ phases:
 artifacts:
   files:
    # - deploy/**/*
-     - target/deploy/aws*/*
+     - target/deploy/WEB-INF/lib/aws*/*
   discard-paths: yes
