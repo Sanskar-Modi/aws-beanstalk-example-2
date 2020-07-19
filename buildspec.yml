@@ -11,9 +11,10 @@ phases:
   post_build:
     commands:
     - echo "Entered the post-build phase"
-    - mv target/deploy ./
+    #- mv target/deploy ./
+    - mv target
 artifacts:
   files:
    # - deploy/**/*
-     - target/deploy/WEB-INF/lib/aws*/*
+     - target/aws*/*
   discard-paths: yes
